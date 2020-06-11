@@ -1,5 +1,5 @@
 module "this" {
-  source = "git::https://github.com/jknight137/terraform-aws-vpc.git?ref=0a569f5"
+  source = "git::https://github.com/jknight137/terraform-aws-vpc.git"
 }
 
 provider "aws" {
